@@ -2,6 +2,6 @@
 
 <% @page.each do |page| %><div class="my-box">
   <h2><%= page.title %></h2><br />
-  <i><%= page.channel %></h2><br /><br />
+  <i>Channel: <%= page.channel %></h2></i><br /><br />
   <p><%= page.description %></p>
 </div><br /><% end %>

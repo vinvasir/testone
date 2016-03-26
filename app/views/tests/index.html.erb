@@ -1,7 +1,7 @@
 <h1>Welcome to my Test One tv show reviews site!</h1>
 
-<div class="my-box"><% @page.each do |page| %>
+<% @page.each do |page| %><div class="my-box">
   <h2><%= page.title %></h2><br />
   <i><%= page.channel %></h2><br /><br />
   <p><%= page.description %></p>
-<% end %></div>
+</div><br /><% end %>

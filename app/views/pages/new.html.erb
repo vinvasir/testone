@@ -1,0 +1,9 @@
+<div class="my box">
+  <h1>Enter your tv show review here:</h1><br />
+  <%= simple_form_for @page do |f| %>
+    <%= f.input :title %>
+    <%= f.input :channel %>
+    <%= f.input :description %>
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
